@@ -7,14 +7,14 @@
     box-sizing: border-box; /* 박스크기 고정*/
     border-top: 1px solid rgba(121,121,121,0.3)
 }
-.nav__link {
-    position: relative; /*밑에서 position absolute 사용할 때 기준 */
-    color: #2e363e;
-}
-
 .nav__list {
     display:flex;
     justify-content: space-between;
+}
+
+.nav__link {
+    position: relative; /*밑에서 position absolute 사용할 때 기준 */
+    color: #2e363e;
 }
 
 .nav__notification {
@@ -40,5 +40,7 @@
     position: absolute;
     left:30px;
     bottom:25px;
+
+
 }
 
