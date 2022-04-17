@@ -1,5 +1,6 @@
 .nav {
-    position: bottom; /*position: fixed인데 이것 떄문에 하트가 가려져서 잠시 바꿈 */
+    position: fixed;
+    /*margin: bottom; /*position: fixed인데 이것 떄문에 하트가 가려져서 잠시 바꿈 */
     bottom: 0;
     width:100%;
     background-color: #f9f9fa;
